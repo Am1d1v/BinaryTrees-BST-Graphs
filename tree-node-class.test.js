@@ -28,4 +28,13 @@ describe('Manual Binary Tree', () => {
     expect(b.right).toBe(e)
     expect(c.right).toBe(f)
   });
+
+  test('Node values are correct', () => {
+    expect(a.value).toBe('a');
+    expect(b.value).toBe('b');
+    expect(c.value).toBe('c');
+    expect(d.value).toBe('d');
+    expect(e.value).toBe('e');
+    expect(f.value).toBe('f');
+  })
 });
